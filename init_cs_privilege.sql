@@ -9,7 +9,7 @@ delete from `p_resource` where module_flag='cs';
 INSERT INTO `p_resource`(id,name,url,remark,parent_id,structure,sort_no,module_flag,create_person,create_date,update_person,update_date) 
 VALUES
 (400,'基础数据','','',0,'s-1',1,'cs','system',NOW(),'system',NOW()),
-(401,'工单管理','','',0,'s-2',2,'cs-server','system',NOW(),'system',NOW()),
+(401,'工单管理','','',0,'s-2',2,'cs','system',NOW(),'system',NOW()),
 (402,'商品点评管理','','',0,'s-3',3,'cs','system',NOW(),'system',NOW()),
 (403,'咨询邮件管理','','',0,'s-4',4,'cs','system',NOW(),'system',NOW()),
 
